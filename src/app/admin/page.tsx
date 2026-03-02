@@ -270,6 +270,85 @@ export default function AdminDashboard() {
                         )}
                     </div>
                 </div>
+
+                {/* CSV Export Section */}
+                <div className="card" style={{ marginTop: 20, textAlign: 'center', padding: '24px 16px' }}>
+                    <h3 style={{ fontSize: '0.9375rem', marginBottom: 8 }}>📥 Export Data ANCOVA</h3>
+                    <p style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', marginBottom: 16, lineHeight: 1.6 }}>
+                        Download data pengguna beserta kovariat untuk analisis statistik (SPSS/STATA/R)
+                    </p>
+                    <button
+                        className="btn btn-primary"
+                        onClick={async () => {
+                            try {
+                                const db = getFirebaseDb();
+                                if (!db) return;
+
+                                // Fetch ALL users
+                                const usersSnap = await getDocs(query(collection(db, 'users_profile'), orderBy('created_at', 'desc')));
+                                // Fetch ALL daily logs
+                                const logsSnap = await getDocs(collection(db, 'daily_logs'));
+
+                                // Build log summary per user
+                                const logsByUser: Record<string, { total: number; mddSum: number; mddAchieved: number; madAchieved: number }> = {};
+                                logsSnap.forEach((d: any) => {
+                                    const data = d.data();
+                                    if (!data.uid) return;
+                                    if (!logsByUser[data.uid]) logsByUser[data.uid] = { total: 0, mddSum: 0, mddAchieved: 0, madAchieved: 0 };
+                                    logsByUser[data.uid].total++;
+                                    logsByUser[data.uid].mddSum += (data.mdd_score || 0);
+                                    if (data.is_mdd_achieved) logsByUser[data.uid].mddAchieved++;
+                                    if (data.is_mad_achieved) logsByUser[data.uid].madAchieved++;
+                                });
+
+                                // Build CSV
+                                const header = 'uid,nama_ibu,kelompok,puskesmas,usia_ibu,pendidikan,pendapatan,dukungan_keluarga,desa,kecamatan,posyandu,jumlah_anak,total_log,rata_mdd,persen_mdd_tercapai,persen_mad_tercapai';
+                                const rows = usersSnap.docs
+                                    .map(d => d.data() as UserProfile)
+                                    .filter(u => !u.isAdmin)
+                                    .map(u => {
+                                        const logs = logsByUser[u.uid] || { total: 0, mddSum: 0, mddAchieved: 0, madAchieved: 0 };
+                                        const avgMdd = logs.total > 0 ? (logs.mddSum / logs.total).toFixed(2) : '0';
+                                        const pctMdd = logs.total > 0 ? ((logs.mddAchieved / logs.total) * 100).toFixed(1) : '0';
+                                        const pctMad = logs.total > 0 ? ((logs.madAchieved / logs.total) * 100).toFixed(1) : '0';
+                                        return [
+                                            u.uid,
+                                            `"${(u.mom_name || '').replace(/"/g, '""')}"`,
+                                            u.group || 'intervention',
+                                            u.puskesmas || '',
+                                            u.mom_age || '',
+                                            u.education_level || '',
+                                            u.income_level || '',
+                                            u.family_support || '',
+                                            u.village || '',
+                                            u.sub_district || '',
+                                            u.posyandu || '',
+                                            u.children?.length || 0,
+                                            logs.total,
+                                            avgMdd,
+                                            pctMdd,
+                                            pctMad,
+                                        ].join(',');
+                                    });
+
+                                const csv = [header, ...rows].join('\n');
+                                const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
+                                const url = URL.createObjectURL(blob);
+                                const a = document.createElement('a');
+                                a.href = url;
+                                a.download = `rannu_ancova_${new Date().toISOString().split('T')[0]}.csv`;
+                                a.click();
+                                URL.revokeObjectURL(url);
+                            } catch (err) {
+                                console.error('CSV export error:', err);
+                                alert('Gagal export. Pastikan koneksi internet tersedia.');
+                            }
+                        }}
+                        style={{ width: '100%' }}
+                    >
+                        📥 Download CSV
+                    </button>
+                </div>
             </div>
             <Navbar />
         </div>

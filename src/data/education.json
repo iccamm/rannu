@@ -178,5 +178,50 @@
         "myth_text": "Stunting hanya disebabkan kurang makan, tidak ada hubungannya dengan bakteri usus.",
         "fact_text": "Penelitian terbaru menunjukkan anak stunting memiliki jumlah bakteri patogen lebih tinggi dan bakteri baik lebih rendah dibanding anak sehat. Mikrobioma usus yang tidak sehat mengganggu penyerapan nutrisi. Kunci pencegahan: ASI hingga 2 tahun + MPASI beragam (≥5 kelompok pangan/hari) + sanitasi baik.",
         "source": "Nutrients MDPI Jakarta Slums Study, 2024; UI Scoping Review, 2023"
+    },
+    {
+        "id": "eed-pencernaan",
+        "category": "mikrobioma",
+        "age_range": "6-8",
+        "title": "EED: Gangguan Usus Tersembunyi",
+        "myth_text": "Kalau anak tidak diare, berarti pencernaannya sehat dan tidak ada masalah.",
+        "fact_text": "Environmental Enteric Dysfunction (EED) adalah peradangan usus halus TANPA gejala diare, disebabkan paparan berulang bakteri dari sanitasi buruk. EED merusak dinding usus sehingga nutrisi tidak terserap optimal — ini salah satu penyebab tersembunyi stunting. Pencegahan: cuci tangan, masak air minum, tutup makanan, jaga kebersihan lantai tempat bayi bermain.",
+        "source": "Lancet Series on Maternal & Child Nutrition, 2023; Harper et al., 2018"
+    },
+    {
+        "id": "igf1-pertumbuhan",
+        "category": "nutrisi",
+        "age_range": "6-8",
+        "title": "IGF-1: Hormon Pertumbuhan dari Makanan",
+        "myth_text": "Tinggi badan anak sepenuhnya ditentukan oleh genetik, makanan tidak berpengaruh.",
+        "fact_text": "IGF-1 (Insulin-like Growth Factor 1) adalah hormon kunci pertumbuhan linier anak. Produksinya SANGAT dipengaruhi oleh asupan protein hewani (telur, ikan, daging, susu). Anak yang kurang protein hewani memiliki kadar IGF-1 rendah → risiko stunting tinggi. Satu butir telur per hari terbukti meningkatkan IGF-1 secara signifikan.",
+        "source": "Journal of Nutrition, 2017; Lutter et al., Lancet 2023"
+    },
+    {
+        "id": "budaya-pantangan",
+        "category": "budaya",
+        "age_range": "9-11",
+        "title": "Pantangan Makanan dalam Budaya Bugis-Makassar",
+        "myth_text": "Adat istiadat melarang memberikan beberapa jenis makanan pada bayi, kita harus ikuti tanpa tanya.",
+        "fact_text": "Menghormati budaya itu penting, tapi beberapa pantangan makanan tradisional bisa berdampak negatif pada gizi anak. Contoh: pantangan ikan/telur untuk bayi di beberapa desa di Bantaeng menyebabkan anak kekurangan protein hewani. Kuncinya: pertahankan nilai budaya positif (makan bersama keluarga, makanan tradisional bergizi), tapi tinjau kembali pantangan yang merugikan gizi berdasarkan bukti ilmiah.",
+        "source": "Riset Etnografi PMBA Sulawesi Selatan, 2023; WHO IYCF 2023"
+    },
+    {
+        "id": "zat-besi-otak",
+        "category": "nutrisi",
+        "age_range": "6-8",
+        "title": "Zat Besi & Perkembangan Otak",
+        "myth_text": "Bayi tidak memerlukan zat besi tambahan karena sudah cukup dari ASI.",
+        "fact_text": "Simpanan zat besi dari lahir HABIS pada usia 6 bulan. Setelah itu, bayi WAJIB mendapat zat besi dari MPASI. Kekurangan zat besi menyebabkan anemia yang merusak perkembangan otak secara PERMANEN. Sumber terbaik: hati ayam (zat besi heme), daging merah, ikan, telur. Zat besi dari sayur (non-heme) kurang efektif diserap tubuh.",
+        "source": "WHO IYCF 2023; Lozoff et al., Pediatrics 2022"
+    },
+    {
+        "id": "gut-brain-axis",
+        "category": "mikrobioma",
+        "age_range": "12-23",
+        "title": "Usus & Otak: Koneksi Tersembunyi",
+        "myth_text": "Usus hanya untuk mencerna makanan, tidak ada hubungannya dengan kecerdasan anak.",
+        "fact_text": "Gut-Brain Axis adalah jalur komunikasi dua arah antara bakteri usus dan otak melalui saraf vagus. Mikrobioma usus yang sehat memproduksi neurotransmitter (serotonin, GABA) yang mempengaruhi mood, tidur, dan perkembangan kognitif anak. 70% sistem imun juga terletak di usus! MPASI beragam = usus sehat = otak berkembang optimal.",
+        "source": "Nature Reviews Neuroscience, 2023; Cryan & Dinan, 2022"
     }
 ]
