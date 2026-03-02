@@ -13,6 +13,7 @@ export default function SplashPage() {
     if (!firebaseReady) { router.replace('/login'); return; }
     if (!user) { router.replace('/login'); }
     else if (!profile) { router.replace('/register'); }
+    else if (profile.isAdmin) { router.replace('/admin'); }
     else { router.replace('/dashboard'); }
   }, [user, profile, loading, firebaseReady, router]);
 
