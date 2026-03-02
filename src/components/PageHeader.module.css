@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.textGroup {
+    flex: 1;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: var(--primary);
+    line-height: 1.3;
+}
+
+.subtitle {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+    line-height: 1.4;
+}
+
+.action {
+    flex-shrink: 0;
+}

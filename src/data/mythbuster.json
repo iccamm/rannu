@@ -1,0 +1,134 @@
+[
+    {
+        "id": "mitos-ikan-cacingan",
+        "category": "protein",
+        "age_range": "6-11",
+        "title": "Ikan Laut Menyebabkan Cacingan",
+        "myth_text": "Anak di bawah 1 tahun tidak boleh makan ikan laut karena bisa cacingan dan perut kembung.",
+        "fact_text": "Ikan laut justru kaya protein, omega-3 (DHA), dan zat besi yang penting untuk perkembangan otak dan mencegah stunting. WHO 2023 merekomendasikan ikan sebagai salah satu MPASI pertama sejak 6 bulan. Cacingan disebabkan oleh sanitasi buruk dan kontak dengan tanah terkontaminasi, BUKAN karena makan ikan. Protein ikan juga mendukung pertumbuhan bakteri baik (Bacteroidetes) di usus bayi.",
+        "source": "WHO Complementary Feeding Guideline, 2023; Nutrients Journal, 2023",
+        "context": "Di Bantaeng, banyak ibu yang menghindari ikan laut untuk bayi karena nasihat orangtua. Padahal ikan laut lokal (bandeng, layang, kembung) sangat kaya nutrisi.",
+        "icon": "🐟"
+    },
+    {
+        "id": "mitos-telur-bisul",
+        "category": "protein",
+        "age_range": "6-11",
+        "title": "Telur Menyebabkan Bisul",
+        "myth_text": "Bayi tidak boleh makan telur karena bisa bikin bisul, gatal-gatal, dan alergi.",
+        "fact_text": "Telur adalah sumber protein hewani terbaik DAN termurah. Satu butir telur mengandung 13 vitamin dan mineral, termasuk kolin untuk perkembangan otak. WHO 2023 merekomendasikan telur sebagai salah satu makanan MPASI pertama. Penelitian LEAP Study (NEJM, 2015) justru membuktikan pengenalan telur dini MENURUNKAN risiko alergi telur.",
+        "source": "WHO 2023; LEAP Study, NEJM 2015",
+        "context": "Kepercayaan bahwa telur menyebabkan bisul sangat umum di masyarakat Bugis-Makassar. Ini menyebabkan banyak anak tidak mendapat protein hewani murah yang sangat penting.",
+        "icon": "🥚"
+    },
+    {
+        "id": "mitos-protein-amis",
+        "category": "protein",
+        "age_range": "6-11",
+        "title": "Protein Amis Bikin Demam",
+        "myth_text": "Ikan, udang, dan makanan 'amis' lainnya bisa bikin bayi demam dan masuk angin.",
+        "fact_text": "Tidak ada bukti ilmiah bahwa protein hewani ('makanan amis') menyebabkan demam pada bayi. Demam disebabkan oleh infeksi virus atau bakteri, bukan makanan. Justru protein hewani mengandung zinc dan zat besi yang MENINGKATKAN daya tahan tubuh bayi. Bayi yang kurang protein hewani lebih rentan infeksi berulang dan stunting.",
+        "source": "Kemenkes RI Pedoman MPASI 2023; WHO IYCF 2023",
+        "context": "Istilah 'amis' sering dikaitkan dengan pantangan makanan tradisional Bugis-Makassar. Ibu muda sering ditekan mertua untuk menghindari protein hewani.",
+        "icon": "🦐"
+    },
+    {
+        "id": "mitos-nasi-bening",
+        "category": "nutrition",
+        "age_range": "6-11",
+        "title": "Nasi Bening Sudah Cukup",
+        "myth_text": "Bayi cukup diberi bubur nasi bening atau air tajin saja. Yang penting perut kenyang.",
+        "fact_text": "Nasi/bubur bening hanya mengandung karbohidrat dan SANGAT RENDAH zat gizi mikro. Bayi membutuhkan minimal 5 dari 8 kelompok pangan setiap hari (MDD). Tanpa protein hewani, sayur, dan buah, bayi kekurangan zat besi, zinc, vitamin A, dan asam lemak esensial. Meta-analisis di Indonesia (2023) membuktikan kurangnya keberagaman pangan SECARA SIGNIFIKAN meningkatkan risiko stunting.",
+        "source": "WHO MDD Indicator 2023; Meta-analisis Stunting Indonesia, ICPH 2023",
+        "context": "Praktik memberi bubur nasi bening ('papeda encer') masih sangat umum di pedesaan Bantaeng sebagai MPASI pertama.",
+        "icon": "🍚"
+    },
+    {
+        "id": "mitos-madu-bayi",
+        "category": "safety",
+        "age_range": "6-11",
+        "title": "Madu Sehat untuk Bayi",
+        "myth_text": "Madu itu alami dan sehat, boleh diberikan ke bayi sebagai pemanis MPASI.",
+        "fact_text": "JANGAN berikan madu pada bayi di bawah 12 bulan! Madu dapat mengandung spora bakteri Clostridium botulinum yang menyebabkan botulisme infantil — kondisi SERIUS yang bisa mengancam jiwa. Sistem pencernaan bayi belum mampu melawan spora ini. Tunggu sampai usia > 12 bulan. Gunakan buah manis (pisang, pepaya) sebagai pemanis alami MPASI.",
+        "source": "AAP (American Academy of Pediatrics); WHO 2023",
+        "context": "Tradisi memberikan madu pada bayi baru lahir masih ditemukan di beberapa desa di Bantaeng.",
+        "icon": "🍯"
+    },
+    {
+        "id": "mitos-asi-sedikit",
+        "category": "breastfeeding",
+        "age_range": "0-5",
+        "title": "ASI Saya Tidak Cukup",
+        "myth_text": "ASI saya sedikit, jadi bayi perlu tambahan susu formula atau pisang kerok sejak lahir.",
+        "fact_text": "97% ibu MAMPU memproduksi ASI yang cukup untuk bayinya. ASI bekerja berdasarkan prinsip supply-demand: semakin sering menyusui, semakin banyak ASI diproduksi. Kolostrum (ASI pertama) cukup untuk lambung bayi baru lahir yang hanya sebesar kelereng. WHO merekomendasikan ASI EKSKLUSIF 6 bulan pertama. Pemberian susu formula/makanan lain sebelum 6 bulan meningkatkan risiko diare dan mengganggu kolonisasi bakteri baik usus.",
+        "source": "WHO 2023; Lancet Breastfeeding Series 2023",
+        "context": "Tekanan untuk menambah susu formula sering datang dari keluarga dan iklan. Di Bantaeng, pemberian pisang kerok pada bayi < 6 bulan masih ditemukan.",
+        "icon": "🤱"
+    },
+    {
+        "id": "mitos-air-putih",
+        "category": "breastfeeding",
+        "age_range": "0-5",
+        "title": "Bayi ASI Perlu Air Putih",
+        "myth_text": "Bayi ASI perlu tambahan air putih, terutama saat cuaca panas di Bantaeng.",
+        "fact_text": "ASI mengandung 87% air — cukup memenuhi kebutuhan cairan bayi meskipun di cuaca panas. Memberi air putih pada bayi < 6 bulan justru mengisi perut dan MENGURANGI asupan ASI. Air putih juga bisa membawa bakteri jika tidak steril. Cukup susui lebih sering saat cuaca panas.",
+        "source": "WHO/UNICEF IYCF Guidelines 2023",
+        "context": "Cuaca panas di pesisir Bantaeng sering menjadi alasan pemberian air putih pada bayi muda.",
+        "icon": "💧"
+    },
+    {
+        "id": "mitos-bumbu-mpasi",
+        "category": "nutrition",
+        "age_range": "6-11",
+        "title": "MPASI Harus Tanpa Bumbu",
+        "myth_text": "MPASI tidak boleh diberi bumbu karena perut bayi masih lemah dan belum kuat.",
+        "fact_text": "Bumbu alami seperti bawang merah, bawang putih, kunyit, dan daun salam AMAN dan justru menambah cita rasa sehingga bayi lebih tertarik makan. Yang harus DIHINDARI adalah gula tambahan, garam BERLEBIHAN, dan MSG. Kunyit bahkan memiliki sifat antiinflamasi yang MELINDUNGI usus. Bumbu lokal Bantaeng aman digunakan.",
+        "source": "Kemenkes RI Pedoman MPASI 2023",
+        "context": "Masakan Bugis-Makassar kaya rempah. Bumbu alami lokal justru bisa menjadi keunggulan MPASI.",
+        "icon": "🌿"
+    },
+    {
+        "id": "mitos-hati-ayam",
+        "category": "protein",
+        "age_range": "6-11",
+        "title": "Hati Ayam Terlalu Berat",
+        "myth_text": "Hati ayam terlalu 'berat' untuk bayi dan bisa menyebabkan masalah pencernaan.",
+        "fact_text": "Hati ayam adalah SUMBER ZAT BESI HEME TERBAIK dan termurah! Zat besi sangat krusial untuk mencegah anemia dan mendukung perkembangan otak. WHO secara KHUSUS merekomendasikan hati sebagai MPASI pertama karena kandungan zat besinya yang sangat tinggi. Hati ayam juga mengandung vitamin A, B12, dan folat. Cukup dihaluskan sesuai usia.",
+        "source": "WHO IYCF Guideline 2023; Kemenkes RI",
+        "context": "Hati ayam murah dan mudah didapat di pasar Bantaeng. Ini bisa jadi 'superfood' lokal untuk mencegah stunting.",
+        "icon": "🫀"
+    },
+    {
+        "id": "mitos-snack-kemasan",
+        "category": "safety",
+        "age_range": "6-11",
+        "title": "Snack Bayi Kemasan = Sehat",
+        "myth_text": "Snack kemasan berlabel 'khusus bayi' pasti aman dan sehat untuk selingan.",
+        "fact_text": "WHO 2023 secara tegas merekomendasikan untuk MENGHINDARI makanan tinggi gula, garam, dan lemak trans — termasuk BANYAK snack kemasan. Cek label nutrisi: hindari produk dengan gula/garam sebagai 3 bahan teratas. Selingan SEHAT: potongan buah lokal (pisang, pepaya), telur rebus, ubi kukus, atau kacang hijau. Makanan olahan juga mengganggu keseimbangan mikrobioma usus bayi.",
+        "source": "WHO Guideline on Complementary Feeding, 2023",
+        "context": "Snack kemasan semakin mudah diakses di warung-warung Bantaeng. Edukasi membaca label nutrisi sangat penting.",
+        "icon": "🍬"
+    },
+    {
+        "id": "mitos-sayur-pahit",
+        "category": "nutrition",
+        "age_range": "6-11",
+        "title": "Sayur Hijau Tidak Untuk Bayi",
+        "myth_text": "Sayuran hijau seperti daun kelor dan bayam terlalu 'keras' dan pahit untuk perut bayi.",
+        "fact_text": "Sayuran hijau gelap KAYA zat besi, vitamin A, dan serat prebiotik yang mendukung pertumbuhan bakteri baik (Bifidobacteria & Lactobacillus) di usus bayi. Daun kelor memiliki protein SETARA DAGING dan kalsium 4x lipat susu! WHO merekomendasikan sayuran hijau sebagai bagian penting MPASI. Cukup sesuaikan tekstur: haluskan untuk 6-8 bulan, cincang untuk 9-11 bulan.",
+        "source": "Journal of Nutrition, 2022; Scoping Review UI, 2023",
+        "context": "Daun kelor tumbuh subur di Bantaeng dan gratis! Ini 'superfood' lokal yang sering diabaikan.",
+        "icon": "🥬"
+    },
+    {
+        "id": "mitos-mikrobioma",
+        "category": "microbiome",
+        "age_range": "6-11",
+        "title": "Semua Kuman di Perut = Bahaya",
+        "myth_text": "Semua bakteri di dalam perut bayi itu berbahaya dan harus dihilangkan.",
+        "fact_text": "Di dalam usus bayi terdapat TRILIUNAN bakteri baik yang disebut mikrobioma usus. Bakteri-bakteri ini membantu mencerna makanan, melawan infeksi, memproduksi vitamin, dan bahkan mempengaruhi perkembangan otak! Penelitian terbaru (2024) menunjukkan anak stunting memiliki mikrobioma yang KURANG BERAGAM. Kunci mikrobioma sehat: ASI + MPASI beragam (≥5 kelompok pangan/hari) + kebersihan lingkungan.",
+        "source": "Nutrients MDPI 2024; Scoping Review UI 2023",
+        "context": "Konsep mikrobioma masih sangat asing bagi kebanyakan ibu di Bantaeng. Edukasi sederhana tentang 'bakteri baik' bisa meningkatkan motivasi pemberian MPASI beragam.",
+        "icon": "🦠"
+    }
+]

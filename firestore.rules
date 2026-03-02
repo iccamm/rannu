@@ -1,0 +1,49 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Check if the current user is an administrator
+    function isAdmin() {
+      return request.auth != null
+        && exists(/databases/$(database)/documents/app_config/admin)
+        && get(/databases/$(database)/documents/app_config/admin).data.uid == request.auth.uid;
+    }
+
+    match /users_profile/{uid} {
+      // Users can read/write their own profile
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+      // Admins can read ALL profiles (for admin dashboard)
+      allow read: if isAdmin();
+    }
+    // App config — any authenticated user can read, only created once
+    match /app_config/{docId} {
+      allow read: if request.auth != null;
+      // Only allow creating admin doc if it doesn't exist yet
+      allow create: if request.auth != null && docId == 'admin';
+      // No updates or deletes from client
+    }
+    match /daily_logs/{logId} {
+      allow get: if request.auth != null;
+      allow list: if (request.auth != null && resource.data.uid == request.auth.uid) || isAdmin();
+      allow create: if request.auth != null && request.resource.data.uid == request.auth.uid;
+      allow update, delete: if request.auth != null && resource.data.uid == request.auth.uid;
+    }
+    match /educational_content/{docId} {
+      allow read: if request.auth != null;
+    }
+    match /activity_logs/{logId} {
+      allow create, update: if request.auth != null && request.resource.data.uid == request.auth.uid;
+      allow read: if (request.auth != null && resource.data.uid == request.auth.uid) || isAdmin();
+    }
+    match /reading_logs/{logId} {
+      allow get: if request.auth != null;
+      allow list: if request.auth != null || isAdmin(); // Note: previous rule allowed any authenticated user to list, keeping it mostly the same but explicit for admin
+      allow create, update: if request.auth != null && request.resource.data.uid == request.auth.uid;
+    }
+    // Gamification stats — users read/write their own, admins can read all
+    match /user_stats/{uid} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+      allow read: if isAdmin();
+    }
+  }
+}

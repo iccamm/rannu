@@ -1,0 +1,422 @@
+[
+    {
+        "id": "d-0-6-01",
+        "day": 1,
+        "age_range": "0-6",
+        "icon": "🤱",
+        "title": "ASI Eksklusif: Fondasi Emas 6 Bulan",
+        "content": "WHO merekomendasikan ASI eksklusif selama 6 bulan pertama. ASI mengandung semua nutrisi, antibodi, dan prebiotik alami yang melindungi bayi dari infeksi saluran cerna dan pernapasan. Tidak perlu tambahan air, jus, atau makanan lain.",
+        "tip": "💡 Susui minimal 8-12 kali/hari untuk menjaga produksi ASI tetap optimal.",
+        "source": "WHO IYCF Guideline, 2023; Lancet Breastfeeding Series, 2016"
+    },
+    {
+        "id": "d-0-6-02",
+        "day": 2,
+        "age_range": "0-6",
+        "icon": "💧",
+        "title": "ASI Cukup untuk Hidrasi Bayi",
+        "content": "ASI mengandung 87% air — cukup memenuhi kebutuhan cairan bayi bahkan di cuaca panas. Memberi air putih sebelum 6 bulan justru mengisi perut dan mengurangi asupan ASI yang lebih bergizi.",
+        "tip": "💡 Saat cuaca panas, susui lebih sering daripada memberi air putih.",
+        "source": "WHO/UNICEF IYCF Counselling Guide, 2023"
+    },
+    {
+        "id": "d-0-6-03",
+        "day": 3,
+        "age_range": "0-6",
+        "icon": "🛡️",
+        "title": "Kolostrum: Imunisasi Pertama",
+        "content": "Kolostrum (ASI pertama berwarna kekuningan) mengandung konsentrasi tinggi antibodi IgA, laktoferin, dan sel darah putih. Ini adalah 'vaksin alami pertama' yang melindungi saluran cerna bayi dari bakteri patogen.",
+        "tip": "💡 Segera susui dalam 1 jam pertama kelahiran — ini disebut Inisiasi Menyusu Dini (IMD).",
+        "source": "Ballard & Morrow, Pediatric Clinics of North America, 2013"
+    },
+    {
+        "id": "d-0-6-04",
+        "day": 4,
+        "age_range": "0-6",
+        "icon": "🧠",
+        "title": "DHA dalam ASI untuk Otak",
+        "content": "ASI mengandung DHA (asam lemak omega-3) yang esensial untuk perkembangan otak dan retina bayi. Kadar DHA dalam ASI tergantung asupan ibu — konsumsi ikan 2-3 kali/minggu meningkatkan DHA secara signifikan.",
+        "tip": "💡 Ibu menyusui: makan ikan kembung, tongkol, atau teri untuk meningkatkan DHA alami.",
+        "source": "Brenna et al., American Journal of Clinical Nutrition, 2007"
+    },
+    {
+        "id": "d-0-6-05",
+        "day": 5,
+        "age_range": "0-6",
+        "icon": "🦠",
+        "title": "ASI Membangun Mikrobioma Usus",
+        "content": "ASI mengandung 200+ jenis HMO (Human Milk Oligosaccharides) — prebiotik alami yang memberi makan bakteri baik di usus bayi. Mikrobioma usus yang sehat membantu penyerapan nutrisi dan mencegah alergi.",
+        "tip": "💡 Bayi ASI eksklusif memiliki 40% lebih banyak Bifidobacteria (bakteri baik) dibanding bayi susu formula.",
+        "source": "Bode, Glycobiology, 2012; WHO Complementary Feeding, 2023"
+    },
+    {
+        "id": "d-0-6-06",
+        "day": 6,
+        "age_range": "0-6",
+        "icon": "⏰",
+        "title": "Menyusui On-Demand",
+        "content": "Menyusui sesuai permintaan bayi (on-demand) lebih efektif dari jadwal kaku. Bayi memiliki mekanisme lapar-kenyang alami. Menyusui on-demand meningkatkan produksi ASI dan memastikan bayi mendapat cukup nutrisi.",
+        "tip": "💡 Kenali tanda lapar awal: mulut mencari-cari, isap jari, gelisah — jangan tunggu sampai menangis.",
+        "source": "Kent et al., Pediatrics, 2006"
+    },
+    {
+        "id": "d-0-6-07",
+        "day": 7,
+        "age_range": "0-6",
+        "icon": "🍽️",
+        "title": "Kapan Mulai MPASI?",
+        "content": "MPASI dimulai tepat di usia 6 bulan (180 hari). Terlalu cepat (<4 bulan) meningkatkan risiko alergi dan obesitas. Terlalu lambat (>6 bulan) menyebabkan defisiensi zat besi dan keterlambatan perkembangan motorik oral.",
+        "tip": "💡 Siapkan peralatan MPASI sejak bayi usia 5 bulan agar tidak terburu-buru.",
+        "source": "WHO Guiding Principles for Complementary Feeding, 2023; ESPGHAN Position Paper, 2017"
+    },
+    {
+        "id": "d-0-6-08",
+        "day": 8,
+        "age_range": "0-6",
+        "icon": "💤",
+        "title": "ASI & Pola Tidur Bayi",
+        "content": "ASI malam hari mengandung melatonin dan triptofan yang membantu bayi mengembangkan ritme sirkadian (pola tidur-bangun). Menyusui malam hari juga menjaga produksi prolaktin tetap tinggi.",
+        "tip": "💡 Jangan khawatir jika bayi sering terbangun malam — ini normal dan penting untuk asupan nutrisi.",
+        "source": "Cohen Engler et al., Journal of Pineal Research, 2012"
+    },
+    {
+        "id": "d-0-6-09",
+        "day": 9,
+        "age_range": "0-6",
+        "icon": "⚖️",
+        "title": "Memantau Pertumbuhan 0-6 Bulan",
+        "content": "Berat badan bayi ASI eksklusif biasanya naik 150-200 gram/minggu di 4 bulan pertama, lalu melambat di bulan 5-6. Ini normal. Gunakan kurva WHO, bukan kurva lokal, untuk pemantauan akurat.",
+        "tip": "💡 Timbang bayi setiap bulan di Posyandu dan catat di buku KIA.",
+        "source": "WHO Child Growth Standards, 2006"
+    },
+    {
+        "id": "d-0-6-10",
+        "day": 10,
+        "age_range": "0-6",
+        "icon": "🥗",
+        "title": "Nutrisi Ibu Menyusui",
+        "content": "Ibu menyusui membutuhkan extra 500 kkal/hari. Prioritaskan protein (ikan, telur, tempe), zat besi (sayur hijau), kalsium (susu, ikan teri), dan asam folat. Kurang gizi pada ibu menurunkan kuantitas ASI.",
+        "tip": "💡 Makan 3x utama + 2x camilan sehat. Minum air putih minimal 8 gelas/hari.",
+        "source": "Indonesian Dietary Guidelines for Lactating Women, 2019; WHO, 2023"
+    },
+    {
+        "id": "d-0-6-11",
+        "day": 11,
+        "age_range": "0-6",
+        "icon": "🧴",
+        "title": "Posisi Menyusui yang Benar",
+        "content": "Pelekatan (latch) yang benar sangat penting: mulut bayi harus terbuka lebar, bibir bawah melipat keluar, dagu menempel payudara, dan areola lebih banyak masuk dari bawah. Pelekatan salah menyebabkan ASI tidak keluar optimal.",
+        "tip": "💡 Tanda pelekatan benar: bayi menghisap dalam-pelan dengan suara 'glek', pipi bulat, tidak terdengar bunyi kecap.",
+        "source": "UNICEF/WHO Baby-Friendly Hospital Initiative, 2018"
+    },
+    {
+        "id": "d-0-6-12",
+        "day": 12,
+        "age_range": "0-6",
+        "icon": "🏥",
+        "title": "ASI untuk Bayi Sakit",
+        "content": "Saat bayi diare atau demam, ASI adalah rehidrasi terbaik. ASI mengandung antibodi spesifik terhadap infeksi yang sedang dialami bayi karena ibu terpapar patogen yang sama. Jangan kurangi atau hentikan ASI saat bayi sakit.",
+        "tip": "💡 Susui lebih sering saat bayi sakit — porsi kecil tapi frekuensi tinggi.",
+        "source": "WHO Management of the Child with Serious Infection, 2015"
+    },
+    {
+        "id": "d-0-6-13",
+        "day": 13,
+        "age_range": "0-6",
+        "icon": "🫙",
+        "title": "Menyimpan ASI Perah",
+        "content": "ASI perah aman disimpan: 4 jam di suhu ruang, 4 hari di kulkas (4°C), 6 bulan di freezer. Gunakan wadah kaca atau plastik BPA-free. Cairkan di kulkas semalam atau rendam air hangat — jangan microwave.",
+        "tip": "💡 Label setiap wadah ASI perah dengan tanggal dan jam. Gunakan metode FIFO (First In, First Out).",
+        "source": "Academy of Breastfeeding Medicine Protocol #8, 2017"
+    },
+    {
+        "id": "d-0-6-14",
+        "day": 14,
+        "age_range": "0-6",
+        "icon": "🌱",
+        "title": "Tanda Bayi Siap MPASI",
+        "content": "Di akhir bulan ke-6, perhatikan tanda kesiapan MPASI: duduk dengan bantuan minimal, kontrol kepala baik, refleks ekstrusi lidah hilang, dan menunjukkan ketertarikan pada makanan. Jika semua tanda ada, saatnya memulai MPASI!",
+        "tip": "💡 Mulai MPASI dengan 1-2 sendok teh — ini fase perkenalan rasa, bukan pengganti ASI.",
+        "source": "WHO Complementary Feeding Guideline, 2023"
+    },
+    {
+        "id": "d-7-9-01",
+        "day": 1,
+        "age_range": "7-9",
+        "icon": "🥣",
+        "title": "Tekstur MPASI 7-9 Bulan",
+        "content": "Pada usia ini, bayi siap dengan tekstur lumat kasar (mashed) hingga cincang halus. Terlalu lama memberikan puree halus dapat menghambat perkembangan kemampuan mengunyah dan meningkatkan risiko penolakan makanan bertekstur.",
+        "tip": "💡 Uji tekstur: makanan bisa dihancurkan dengan lidah di langit-langit mulut, tapi masih ada butiran kecil.",
+        "source": "WHO Complementary Feeding Guideline, 2023; Fewtrell et al., ESPGHAN, 2017"
+    },
+    {
+        "id": "d-7-9-02",
+        "day": 2,
+        "age_range": "7-9",
+        "icon": "🥚",
+        "title": "Protein Hewani Setiap Hari",
+        "content": "WHO 2023 menekankan: protein hewani (telur, ikan, hati, daging) harus masuk menu MPASI setiap hari sejak awal. Protein hewani mengandung zat besi heme (penyerapan 25%) — jauh lebih tinggi dari zat besi nabati (5%).",
+        "tip": "💡 1 butir telur/hari untuk bayi terbukti mengurangi stunting 47% (studi Ecuador, Iannotti 2017).",
+        "source": "Iannotti et al., Pediatrics, 2017; WHO IYCF Guideline, 2023"
+    },
+    {
+        "id": "d-7-9-03",
+        "day": 3,
+        "age_range": "7-9",
+        "icon": "📏",
+        "title": "Porsi Makan 7-9 Bulan",
+        "content": "Porsi MPASI usia 7-9 bulan: 2/3 mangkuk (250ml) per kali makan, sebanyak 2-3 kali/hari + 1-2 camilan. ASI tetap diberikan sebelum atau setelah makan utama. Total kalori dari MPASI: sekitar 300 kkal/hari.",
+        "tip": "💡 Jangan paksa habis — ikuti isyarat kenyang bayi: membuang muka, menutup mulut, mendorong sendok.",
+        "source": "PAHO/WHO Guiding Principles, 2003; Kemenkes RI Panduan MPASI, 2022"
+    },
+    {
+        "id": "d-7-9-04",
+        "day": 4,
+        "age_range": "7-9",
+        "icon": "🫘",
+        "title": "Kacang-kacangan untuk MPASI",
+        "content": "Kacang-kacangan (kedelai, kacang merah, kacang hijau) adalah sumber protein nabati, serat, dan folat yang murah. Tempe fermentasi lebih mudah dicerna dan mengandung vitamin B12 alami — rare untuk sumber nabati.",
+        "tip": "💡 Tempe kukus yang dihaluskan bisa dicampur nasi tim — sumber protein dan probiotik.",
+        "source": "Aedo-Santos et al., Food Research International, 2022; Astawan, IPB, 2008"
+    },
+    {
+        "id": "d-7-9-05",
+        "day": 5,
+        "age_range": "7-9",
+        "icon": "🥕",
+        "title": "Sayur & Buah Kaya Vitamin A",
+        "content": "Vitamin A esensial untuk penglihatan, imunitas, dan pertumbuhan sel. Sumber terbaik: wortel, ubi jalar oranye, labu, bayam, mangga. Indonesia masih memiliki prevalensi defisiensi vitamin A subklinis yang tinggi pada balita.",
+        "tip": "💡 Lemak membantu penyerapan vitamin A — tambahkan sedikit minyak atau santan pada sayur.",
+        "source": "WHO Vitamin A Supplementation, 2011; Riskesdas, 2018"
+    },
+    {
+        "id": "d-7-9-06",
+        "day": 6,
+        "age_range": "7-9",
+        "icon": "🐟",
+        "title": "Ikan Lokal untuk Otak Cerdas",
+        "content": "Ikan lokal (teri, kembung, tongkol, lele) mengandung DHA dan EPA untuk perkembangan otak. Ikan teri kering bahkan mengandung kalsium tinggi karena dimakan dengan tulang. Mitos 'ikan menyebabkan cacingan' tidak berdasar medis.",
+        "tip": "💡 Ikan teri yang dihaluskan bisa jadi taburan serbaguna untuk bubur, nasi, atau sayur MPASI.",
+        "source": "Mahaffey, Environmental Research, 2004; WHO CF Guideline, 2023"
+    },
+    {
+        "id": "d-7-9-07",
+        "day": 7,
+        "age_range": "7-9",
+        "icon": "🤏",
+        "title": "Finger Food Pertama",
+        "content": "Usia 7-9 bulan adalah waktu ideal untuk memperkenalkan finger food — makanan yang bisa digenggam bayi. Ini melatih motorik halus, koordinasi tangan-mulut, dan kemandirian makan. Potong memanjang seukuran jari dewasa.",
+        "tip": "💡 Finger food aman: wortel rebus, brokoli kukus, pisang, roti panggang lunak — harus bisa dihancurkan dengan jari.",
+        "source": "Rapley & Murkett, Baby-Led Weaning, 2008; Brown & Lee, Maternal & Child Nutrition, 2011"
+    },
+    {
+        "id": "d-7-9-08",
+        "day": 8,
+        "age_range": "7-9",
+        "icon": "⚠️",
+        "title": "Mengenali Alergi Makanan",
+        "content": "Perkenalkan alergen umum (telur, ikan, kacang tanah, gandum) satu per satu, selang 2-3 hari. Tanda alergi: ruam merah, bengkak bibir/mata, muntah, diare berat. Menunda pengenalan alergen justru meningkatkan risiko alergi.",
+        "tip": "💡 Berikan alergen baru di pagi hari agar mudah memantau reaksi selama siang. Catat di buku harian makan.",
+        "source": "Du Toit et al., NEJM (LEAP Study), 2015; ASCIA Guidelines, 2020"
+    },
+    {
+        "id": "d-7-9-09",
+        "day": 9,
+        "age_range": "7-9",
+        "icon": "🦷",
+        "title": "MPASI & Kesehatan Gigi",
+        "content": "Gigi pertama biasanya muncul usia 6-8 bulan. Makanan manis (jus buah, biskuit) meningkatkan risiko karies botol. Setelah makan, bersihkan gusi dan gigi bayi dengan kain lembab atau sikat gigi jari silikon.",
+        "tip": "💡 Hindari kebiasaan menyusu sambil tidur setelah gigi tumbuh — ASI yang menggenang dapat menyebabkan karies.",
+        "source": "American Academy of Pediatric Dentistry, 2020"
+    },
+    {
+        "id": "d-7-9-10",
+        "day": 10,
+        "age_range": "7-9",
+        "icon": "🍚",
+        "title": "Serealia & Umbi sebagai Sumber Energi",
+        "content": "Nasi, oat, kentang, ubi, dan jagung menyediakan karbohidrat kompleks untuk energi. Variasikan sumber karbohidrat — jangan hanya nasi putih. Ubi jalar oranye bonus vitamin A, oat bonus serat larut.",
+        "tip": "💡 Coba bubur oat + pisang + hati ayam = menu komplit karbohidrat, buah, dan protein hewani.",
+        "source": "WHO CF Guideline, 2023; FAO/WHO Nutrient Requirements, 2004"
+    },
+    {
+        "id": "d-7-9-11",
+        "day": 11,
+        "age_range": "7-9",
+        "icon": "🧈",
+        "title": "Lemak Sehat untuk Pertumbuhan",
+        "content": "Bayi membutuhkan 30-40% kalori dari lemak untuk pertumbuhan otak. Sumber lemak sehat: minyak kelapa, santan, alpukat, kuning telur. Jangan berikan MPASI rendah lemak — otak bayi sangat bergantung pada asupan lemak.",
+        "tip": "💡 Tambahkan 1 sendok teh minyak kelapa atau santan ke setiap porsi MPASI untuk kalori ekstra.",
+        "source": "Uauy & Dangour, Nutrition Reviews, 2006; Kemenkes RI, 2022"
+    },
+    {
+        "id": "d-7-9-12",
+        "day": 12,
+        "age_range": "7-9",
+        "icon": "💩",
+        "title": "Memahami BAB Bayi MPASI",
+        "content": "Saat mulai MPASI, frekuensi dan warna BAB berubah — ini normal. BAB lebih padat, berwarna sesuai makanan, dan baunya lebih kuat. Konstipasi ringan wajar saat transisi. Khawatir jika BAB berdarah, hitam, atau putih pucat.",
+        "tip": "💡 Cukupi cairan (ASI + air) dan berikan serat dari buah (pepaya, pir) jika bayi sembelit.",
+        "source": "Suskind & Suskind, Textbook of Pediatric Nutrition, 2012"
+    },
+    {
+        "id": "d-7-9-13",
+        "day": 13,
+        "age_range": "7-9",
+        "icon": "🪑",
+        "title": "Lingkungan Makan yang Tepat",
+        "content": "Dudukkan bayi di kursi makan (high chair), bukan dipangku sambil jalan-jalan. Makan di tempat tetap membantu bayi asosiasikan kursi dengan makan, mengurangi distraksi, dan mencegah risiko tersedak. Matikan TV/gadget saat makan.",
+        "tip": "💡 Makan bersama keluarga — bayi belajar dari meniru. Tunjukkan bahwa makan adalah aktivitas menyenangkan.",
+        "source": "Birch & Doub, International Journal of Obesity, 2014; AAP, 2020"
+    },
+    {
+        "id": "d-7-9-14",
+        "day": 14,
+        "age_range": "7-9",
+        "icon": "📊",
+        "title": "Keragaman Pangan (MDD) itu Penting",
+        "content": "Minimum Dietary Diversity (MDD) mensyaratkan 5 dari 8 kelompok pangan/hari. Riset di 11 negara menunjukkan anak yang mencapai MDD memiliki 26% lebih rendah risiko stunting. RANNU membantu melacak keragaman harian si kecil.",
+        "tip": "💡 8 kelompok: ASI, serealia/umbi, kacang, susu/produknya, daging/ikan, telur, sayur/buah vit.A, sayur/buah lain.",
+        "source": "WHO MDD Indicator, 2010; Arimond & Ruel, Food & Nutrition Bulletin, 2004"
+    },
+    {
+        "id": "d-10-12-01",
+        "day": 1,
+        "age_range": "10-12",
+        "icon": "🥩",
+        "title": "Tekstur Kasar & Potongan Kecil",
+        "content": "Di usia 10-12 bulan bayi harus sudah makan makanan yang dicincang kasar dan potongan kecil. Gusi mereka sudah kuat untuk mengunyah makanan lunak. Mempertahankan puree terlalu lama menghambat perkembangan oral-motor.",
+        "tip": "💡 Potong makanan seukuran kacang polong — cukup kecil untuk diambil tapi cukup besar untuk dikunyah.",
+        "source": "WHO Complementary Feeding Guideline, 2023; Coulthard et al., Maternal & Child Nutrition, 2009"
+    },
+    {
+        "id": "d-10-12-02",
+        "day": 2,
+        "age_range": "10-12",
+        "icon": "🍳",
+        "title": "Menu 4 Bintang Setiap Hari",
+        "content": "Pastikan setiap porsi MPASI mengandung menu 4 bintang: ① karbohidrat (nasi/ubi), ② protein hewani (telur/ikan/daging), ③ sayur/buah, ④ lemak (minyak/santan). Ini menjamin kepadatan nutrisi setiap suapan.",
+        "tip": "💡 Contoh: nasi tim + hati ayam + wortel + minyak kelapa = menu 4 bintang komplit!",
+        "source": "Kemenkes RI Panduan MPASI Lokal, 2022; WHO IYCF, 2023"
+    },
+    {
+        "id": "d-10-12-03",
+        "day": 3,
+        "age_range": "10-12",
+        "icon": "🥛",
+        "title": "Susu & Produk Olahan Susu",
+        "content": "Usia 10-12 bulan, bayi sudah bisa dikenalkan produk susu selain ASI: yogurt plain, keju lunak, susu dalam masakan. Produk susu kaya kalsium dan protein untuk tulang dan gigi. Namun ASI tetap sumber susu utama.",
+        "tip": "💡 Yogurt plain tanpa gula bisa dicampur buah sebagai camilan kaya kalsium dan probiotik.",
+        "source": "AAP Committee on Nutrition, 2020; WHO CF Guideline, 2023"
+    },
+    {
+        "id": "d-10-12-04",
+        "day": 4,
+        "age_range": "10-12",
+        "icon": "🧪",
+        "title": "Zat Besi: Nutrisi Kritis",
+        "content": "Cadangan zat besi bawaan lahir sudah habis total di usia 9-10 bulan. Anemia defisiensi besi menyebabkan keterlambatan kognitif yang irreversibel. Sumber terbaik: hati sapi/ayam (11mg/100g), diikuti daging merah dan telur.",
+        "tip": "💡 Berikan vitamin C (jeruk, tomat) bersamaan makanan kaya besi — meningkatkan penyerapan hingga 6x lipat.",
+        "source": "Lozoff et al., Pediatrics, 2006; WHO Iron Supplementation, 2016"
+    },
+    {
+        "id": "d-10-12-05",
+        "day": 5,
+        "age_range": "10-12",
+        "icon": "🤸",
+        "title": "Makan Mandiri & Self-Feeding",
+        "content": "Usia 10-12 bulan, dorong bayi makan sendiri dengan tangan atau sendok. Ini berantakan tapi penting untuk perkembangan motorik halus, koordinasi, dan pembentukan hubungan positif dengan makanan.",
+        "tip": "💡 Gunakan mangkuk berpenghisap (suction bowl) dan alas plastik di lantai — berantakan itu normal dan sehat!",
+        "source": "Rapley, Maternal & Child Nutrition, 2011; Fangupo et al., JAMA Pediatrics, 2016"
+    },
+    {
+        "id": "d-10-12-06",
+        "day": 6,
+        "age_range": "10-12",
+        "icon": "🌿",
+        "title": "Daun Kelor: Superfood Lokal",
+        "content": "Daun kelor mengandung 2x protein susu, 7x vitamin C jeruk, 4x kalsium susu, dan 25x zat besi bayam. Ini adalah superfood lokal yang murah dan mudah didapat di seluruh Indonesia.",
+        "tip": "💡 Keringkan daun kelor, tumbuk halus — jadikan bubuk taburan untuk nasi, bubur, atau sayur MPASI.",
+        "source": "Gopalakrishnan et al., Phytotherapy Research, 2016; Kemenkes RI, 2018"
+    },
+    {
+        "id": "d-10-12-07",
+        "day": 7,
+        "age_range": "10-12",
+        "icon": "🚫",
+        "title": "Makanan yang Harus Dihindari",
+        "content": "Hindari: madu (risiko botulisme), garam berlebih (ginjal belum matang), gula tambahan, makanan bulat keras (anggur utuh, kacang utuh — risiko tersedak), mi instan, dan makanan ultra-proses.",
+        "tip": "💡 Batas garam bayi <1 tahun: kurang dari 1 gram/hari. Gunakan bumbu alami: bawang, kunyit, serai.",
+        "source": "NHS Start4Life, 2023; AAP Policy on Added Sugars, 2019"
+    },
+    {
+        "id": "d-10-12-08",
+        "day": 8,
+        "age_range": "10-12",
+        "icon": "😤",
+        "title": "Menghadapi GTM (Gerakan Tutup Mulut)",
+        "content": "GTM adalah fase normal. Bayi perlu 10-15 kali paparan sebelum menerima rasa baru. Jangan memaksa — tekanan saat makan menciptakan asosiasi negatif yang berlangsung lama. Tetap tenang, variasikan penyajian.",
+        "tip": "💡 Campur bahan baru dengan bahan favorit (rasio 1:3), tingkatkan proporsi bertahap setiap 3-4 hari.",
+        "source": "Birch et al., Appetite, 1998; Cooke, The British Nutrition Foundation, 2007"
+    },
+    {
+        "id": "d-10-12-09",
+        "day": 9,
+        "age_range": "10-12",
+        "icon": "🍌",
+        "title": "Camilan Sehat 10-12 Bulan",
+        "content": "Berikan 1-2 camilan/hari di antara makan utama. Camilan harus bergizi, bukan junk food. Pilihan: potongan buah matang, roti gandum, keju, ubi rebus, pisang, telur rebus, atau yogurt.",
+        "tip": "💡 Siapkan camilan dalam wadah tertutup agar selalu siap — hindari memberi snack kemasan saat bepergian.",
+        "source": "WHO/PAHO Guiding Principles for CF, 2003"
+    },
+    {
+        "id": "d-10-12-10",
+        "day": 10,
+        "age_range": "10-12",
+        "icon": "🫗",
+        "title": "Belajar Minum dari Gelas",
+        "content": "Mulai latih minum dari gelas terbuka (open cup) atau gelas sippy di usia 10 bulan. Minum dari botol dot terlalu lama bisa mempengaruhi perkembangan gigi dan struktur mulut. Air putih bisa mulai diberikan dalam porsi kecil.",
+        "tip": "💡 Isi gelas hanya 1/4 penuh — biarkan bayi belajar mengontrol aliran air. Tumpah itu wajar!",
+        "source": "AAP Healthy Children, 2020; BDA Weaning Guidelines, 2021"
+    },
+    {
+        "id": "d-10-12-11",
+        "day": 11,
+        "age_range": "10-12",
+        "icon": "🔄",
+        "title": "Responsive Feeding: Dengarkan Bayi",
+        "content": "Responsive feeding berarti memberi makan berdasarkan isyarat lapar-kenyang bayi, bukan jadwal kaku atau target porsi. Bayi yang diberi makan secara responsif memiliki risiko obesitas dan gangguan makan lebih rendah.",
+        "tip": "💡 Tanda lapar: buka mulut, menggapai makanan. Tanda kenyang: membuang muka, menutup mulut, main-main sendok.",
+        "source": "Black & Aboud, American Journal of Clinical Nutrition, 2011; Pérez-Escamilla et al., Advances in Nutrition, 2017"
+    },
+    {
+        "id": "d-10-12-12",
+        "day": 12,
+        "age_range": "10-12",
+        "icon": "🧂",
+        "title": "Bumbu Alami untuk MPASI",
+        "content": "Bumbu alami (bawang putih, bawang merah, kunyit, serai, daun salam, jahe) aman dan bermanfaat untuk MPASI. Bumbu menambah cita rasa, mengandung antioksidan, dan membantu bayi terbiasa dengan masakan keluarga.",
+        "tip": "💡 Mulai dengan bumbu halus dalam jumlah sedikit. Hindari cabai, merica, dan MSG untuk bayi <1 tahun.",
+        "source": "Mennella et al., Pediatrics, 2001; WHO CF Guideline, 2023"
+    },
+    {
+        "id": "d-10-12-13",
+        "day": 13,
+        "age_range": "10-12",
+        "icon": "📱",
+        "title": "Gadget & Waktu Makan",
+        "content": "WHO merekomendasikan zero screen time untuk bayi <1 tahun. Memberi gadget saat makan mengurangi perhatian bayi pada rasa dan tekstur, menghambat responsive feeding, dan dikaitkan dengan overconsumption.",
+        "tip": "💡 Jadikan meja makan zona bebas gadget — untuk seluruh keluarga, bukan hanya bayi.",
+        "source": "WHO Screen Time Guidelines, 2019; Jansen et al., Appetite, 2019"
+    },
+    {
+        "id": "d-10-12-14",
+        "day": 14,
+        "age_range": "10-12",
+        "icon": "🎂",
+        "title": "Persiapan Makanan Keluarga",
+        "content": "Menjelang usia 1 tahun, mulai transisikan ke makanan keluarga yang dipotong kecil. Bayi sudah siap makan bersama dari menu yang sama (tanpa garam/gula berlebih). Ini memudahkan ibu dan membentuk kebiasaan makan sehat.",
+        "tip": "💡 Masak menu keluarga tanpa garam — ambil porsi bayi dulu, lalu tambahkan bumbu untuk dewasa.",
+        "source": "WHO 2023; Kemenkes RI Panduan MPASI, 2022"
+    }
+]

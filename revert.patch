@@ -1,0 +1,35 @@
+--- src/app/admin/components/AnalyticsCharts.tsx
++++ src/app/admin/components/AnalyticsCharts.tsx
+@@ -12,8 +12,8 @@
+     if (!data || data.length === 0) return <div className="text-center text-muted p-4">Belum ada data aktivitas.</div>;
+ 
+     return (
+-        <div style={{ width: '100%', height: 300, minWidth: 0 }}>
+-            <ResponsiveContainer width="100%" height="100%" minWidth={1} minHeight={1}>
++        <div style={{ width: '100%', height: 300 }}>
++            <ResponsiveContainer>
+                 <LineChart data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E0E0E0" />
+                     <XAxis
+@@ -58,8 +58,8 @@
+     if (!data || data.length === 0) return <div className="text-center text-muted p-4">Belum ada data demografi.</div>;
+ 
+     return (
+-        <div style={{ width: '100%', height: 300, minWidth: 0 }}>
+-            <ResponsiveContainer width="100%" height="100%" minWidth={1} minHeight={1}>
++        <div style={{ width: '100%', height: 300 }}>
++            <ResponsiveContainer>
+                 <PieChart>
+                     <Pie
+                         data={data}
+@@ -85,8 +85,8 @@
+     if (!data || data.length === 0) return <div className="text-center text-muted p-4">Belum ada data input.</div>;
+ 
+     return (
+-        <div style={{ width: '100%', height: 300, minWidth: 0 }}>
+-            <ResponsiveContainer width="100%" height="100%" minWidth={1} minHeight={1}>
++        <div style={{ width: '100%', height: 300 }}>
++            <ResponsiveContainer>
+                 <BarChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E0E0E0" />
+                     <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fontSize: 12, fill: '#828282' }} dy={10} />

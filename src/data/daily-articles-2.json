@@ -1,0 +1,282 @@
+[
+    {
+        "id": "d-12-18-01",
+        "day": 1,
+        "age_range": "12-18",
+        "icon": "👨‍👩‍👦",
+        "title": "Transisi ke Makanan Keluarga",
+        "content": "Di usia 12+ bulan, anak sudah bisa makan makanan keluarga yang dipotong kecil. Dalam Islam, makan bersama keluarga adalah sunnah yang mendatangkan keberkahan — Rasulullah ﷺ bersabda: 'Berkumpullah saat makan, niscaya akan diberi berkah' (HR Abu Dawud). Jadikan momen makan keluarga sebagai quality time.",
+        "tip": "💡 Masak satu menu untuk seluruh keluarga — ambil porsi anak sebelum menambahkan garam/gula berlebih.",
+        "source": "WHO CF Guideline, 2023; HR Abu Dawud no. 3764"
+    },
+    {
+        "id": "d-12-18-02",
+        "day": 2,
+        "age_range": "12-18",
+        "icon": "📏",
+        "title": "Porsi & Frekuensi 12-18 Bulan",
+        "content": "Usia 12-18 bulan: 3-4 kali makan utama + 1-2 camilan bergizi. Porsi 3/4 hingga 1 mangkuk (250ml) per makan. Total kalori dari MPASI sekitar 550 kkal/hari, sisanya dari ASI. Variasikan menu setiap hari.",
+        "tip": "💡 Gunakan piring hias anak yang menarik — warna cerah meningkatkan keinginan makan anak.",
+        "source": "PAHO/WHO Guiding Principles, 2003; Kemenkes RI, 2022"
+    },
+    {
+        "id": "d-12-18-03",
+        "day": 3,
+        "age_range": "12-18",
+        "icon": "🤲",
+        "title": "ASI 2 Tahun: Anjuran Quran",
+        "content": "Al-Baqarah (2:233): 'Para ibu hendaklah menyusukan anak-anaknya selama dua tahun penuh bagi yang ingin menyempurnakan penyusuan.' WHO juga merekomendasikan ASI hingga 2 tahun. ASI di usia 12-18 bulan masih menyumbang 30-40% kebutuhan energi dan antibodi penting.",
+        "tip": "💡 Lanjutkan ASI di pagi dan malam hari — ini waktu yang nyaman untuk ibu dan anak.",
+        "source": "QS Al-Baqarah 2:233; WHO IYCF Guideline, 2023; Katsir, Tafsir Ibn Katsir"
+    },
+    {
+        "id": "d-12-18-04",
+        "day": 4,
+        "age_range": "12-18",
+        "icon": "🍯",
+        "title": "Madu Setelah 1 Tahun",
+        "content": "Setelah usia 1 tahun, madu aman dan bermanfaat. Allah berfirman dalam QS An-Nahl (16:69): 'Dari perut lebah keluar minuman yang bermacam-macam warnanya, di dalamnya terdapat obat bagi manusia.' Madu mengandung antioksidan, antibakteri, dan prebiotik alami.",
+        "tip": "💡 Gunakan madu asli sebagai pemanis alami pengganti gula — 1 sendok teh dalam bubur atau susu.",
+        "source": "QS An-Nahl 16:69; Bogdanov et al., Journal of the American College of Nutrition, 2008"
+    },
+    {
+        "id": "d-12-18-05",
+        "day": 5,
+        "age_range": "12-18",
+        "icon": "📊",
+        "title": "Memantau Pertumbuhan Setelah 1 Tahun",
+        "content": "Pertumbuhan berat badan melambat setelah 1 tahun — ini normal. Anak biasanya naik 2-3 kg/tahun (vs 6 kg di tahun pertama). Yang penting: tren pertumbuhan konsisten di kurva WHO, bukan angka absolut. Stunting terdeteksi dari tinggi badan/usia.",
+        "tip": "💡 Kunjungi Posyandu rutin setiap bulan — deteksi dini stunting lebih mudah diintervensi.",
+        "source": "WHO Child Growth Standards, 2006; Kemenkes RI, 2022"
+    },
+    {
+        "id": "d-12-18-06",
+        "day": 6,
+        "age_range": "12-18",
+        "icon": "🥬",
+        "title": "Sayur Hijau: Kunci Anti-Stunting",
+        "content": "Sayur hijau (bayam, kangkung, daun kelor, brokoli) kaya zat besi, kalsium, folat, dan vitamin K. Anak Indonesia rata-rata defisit sayur 80% dari kebutuhan (Riskesdas 2018). Sajikan sayur dengan kreatif agar anak tertarik.",
+        "tip": "💡 Buat nugget sayur: campurkan bayam halus + tahu + telur + tepung, bentuk lucu, kukus/panggang.",
+        "source": "Riskesdas 2018; Kemenkes Pedoman Gizi Seimbang, 2014"
+    },
+    {
+        "id": "d-12-18-07",
+        "day": 7,
+        "age_range": "12-18",
+        "icon": "🐄",
+        "title": "Pentingnya Susu & Produk Olahan",
+        "content": "Setelah 1 tahun, susu sapi full cream bisa diberikan sebagai minuman pelengkap (bukan pengganti ASI). Susu, yogurt, dan keju menyediakan kalsium, protein, dan vitamin D untuk tulang. Pastikan susu halal dan tidak mengandung bahan haram.",
+        "tip": "💡 Yogurt plain + buah segar = camilan kaya kalsium dan probiotik yang disukai anak.",
+        "source": "AAP Committee on Nutrition, 2020; MUI, Panduan Pangan Halal"
+    },
+    {
+        "id": "d-12-18-08",
+        "day": 8,
+        "age_range": "12-18",
+        "icon": "🦴",
+        "title": "Pencegahan Stunting Usia Emas",
+        "content": "Periode 0-24 bulan adalah window of opportunity pencegahan stunting. Setelah 2 tahun, stunting sulit dipulihkan. Kunci: pangan beragam, protein hewani tiap hari, gizi ibu, sanitasi bersih, dan stimulasi perkembangan.",
+        "tip": "💡 Cek tinggi badan anak di Posyandu — tanda stunting: tinggi badan <-2 SD dari standar WHO.",
+        "source": "UNICEF Conceptual Framework of Malnutrition, 2020; de Onis & Branca, 2016"
+    },
+    {
+        "id": "d-12-18-09",
+        "day": 9,
+        "age_range": "12-18",
+        "icon": "🧼",
+        "title": "Kebersihan & Keamanan Pangan",
+        "content": "Diare akibat hygiene buruk menyebabkan malabsorpsi nutrisi — kontributor utama stunting. Islam juga menekankan kebersihan: 'Kebersihan adalah sebagian dari iman' (HR Muslim). Cuci tangan sebelum menyiapkan dan memberi makan anak.",
+        "tip": "💡 5 kunci WHO: tangan bersih, pisahkan mentah-matang, masak matang, suhu aman, air & bahan bersih.",
+        "source": "HR Muslim; WHO Five Keys to Safer Food, 2006; Checkley et al., The Lancet, 2008"
+    },
+    {
+        "id": "d-12-18-10",
+        "day": 10,
+        "age_range": "12-18",
+        "icon": "🎨",
+        "title": "Membangun Kebiasaan Makan Positif",
+        "content": "Usia 12-18 bulan adalah masa pembentukan kebiasaan makan seumur hidup. Sajikan makanan dalam porsi kecil yang berwarna-warni, libatkan anak memilih, dan jangan gunakan makanan sebagai hadiah/hukuman.",
+        "tip": "💡 Pujilah usaha makan anak ('Wah hebat, adik coba brokoli!'), bukan jumlah yang dimakan.",
+        "source": "Savage et al., Journal of Law, Medicine & Ethics, 2007; Satter, Child of Mine, 2000"
+    },
+    {
+        "id": "d-12-18-11",
+        "day": 11,
+        "age_range": "12-18",
+        "icon": "🫒",
+        "title": "Minyak Zaitun dalam MPASI",
+        "content": "Minyak zaitun (zaitun) disebut dalam Al-Quran sebagai pohon yang diberkahi (QS An-Nur 24:35). Minyak zaitun extra virgin kaya asam oleat, polifenol antioksidan, dan vitamin E. Aman untuk MPASI sebagai sumber lemak sehat.",
+        "tip": "💡 Teteskan 1 sendok teh minyak zaitun di atas bubur atau sup — menambah kalori dan rasa.",
+        "source": "QS An-Nur 24:35; Visioli & Galli, European Journal of Lipid Science, 2002"
+    },
+    {
+        "id": "d-12-18-12",
+        "day": 12,
+        "age_range": "12-18",
+        "icon": "🏃",
+        "title": "Aktivitas Fisik & Nafsu Makan",
+        "content": "Anak yang aktif bergerak memiliki nafsu makan lebih baik. Berikan minimal 180 menit aktivitas fisik per hari (tidak harus intens — bermain, merangkak, berjalan). Aktivitas fisik juga membantu perkembangan motorik dan tulang.",
+        "tip": "💡 Ajak anak bermain di lantai, berjalan-jalan di halaman, atau bermain bola — bukan screen time!",
+        "source": "WHO Physical Activity Guidelines for Children <5 years, 2019"
+    },
+    {
+        "id": "d-12-18-13",
+        "day": 13,
+        "age_range": "12-18",
+        "icon": "🌾",
+        "title": "Pangan Lokal Indonesia untuk Balita",
+        "content": "Indonesia kaya pangan lokal bergizi: ikan lele (protein tinggi, murah), tempe (probiotik alami), ubi jalar oranye (vitamin A), kelor (mineral), dan kelapa (lemak sehat). Tidak perlu makanan impor mahal untuk gizi optimal.",
+        "tip": "💡 Menu lokal komplit: nasi merah + pepes ikan lele + sayur kelor + buah pepaya. Murah dan bergizi!",
+        "source": "Kemenkes RI Pedoman MPASI Lokal, 2022; FAO, 2021"
+    },
+    {
+        "id": "d-12-18-14",
+        "day": 14,
+        "age_range": "12-18",
+        "icon": "🤒",
+        "title": "Nutrisi Saat Anak Sakit",
+        "content": "Saat anak sakit, nafsu makan menurun — ini normal. Tetap tawarkan makanan dalam porsi kecil tapi sering. Prioritaskan cairan (ASI, kuah sup, air). Setelah sembuh, berikan extra makan 1-2 minggu untuk catch-up growth.",
+        "tip": "💡 Sup hangat dengan protein (ayam/telur) + sayur = mudah ditelan, bergizi, dan menenangkan.",
+        "source": "WHO IMCI Guidelines, 2014; Dewey et al., Food & Nutrition Bulletin, 2003"
+    },
+    {
+        "id": "d-18-23-01",
+        "day": 1,
+        "age_range": "18-23",
+        "icon": "🍽️",
+        "title": "Makan Mandiri di Usia 18+ Bulan",
+        "content": "Di usia 18+ bulan anak sudah bisa makan sendiri dengan sendok, walaupun masih berantakan. Kemandirian makan membangun percaya diri dan keterampilan motorik halus. Dampingi tanpa mengambil alih.",
+        "tip": "💡 Berikan sendok dan garpu anak yang ergonomis. Biarkan berantakan — ini proses belajar yang penting.",
+        "source": "Carruth & Skinner, JADA, 2002; Rapley, Maternal & Child Nutrition, 2011"
+    },
+    {
+        "id": "d-18-23-02",
+        "day": 2,
+        "age_range": "18-23",
+        "icon": "🕌",
+        "title": "Adab Makan dalam Islam",
+        "content": "Ajarkan adab makan sejak dini: berdoa sebelum makan (Bismillah), makan dengan tangan kanan, makan yang terdekat, dan tidak berlebihan. Rasulullah ﷺ bersabda: 'Cukuplah bagi anak Adam beberapa suap yang menegakkan tulang punggungnya' (HR Tirmidzi).",
+        "tip": "💡 Ajak anak berdoa bersama sebelum makan — jadikan rutinitas yang menyenangkan, bukan paksaan.",
+        "source": "HR Tirmidzi no. 2380; Al-Ghazali, Ihya Ulumuddin, Kitab Adab al-Akl"
+    },
+    {
+        "id": "d-18-23-03",
+        "day": 3,
+        "age_range": "18-23",
+        "icon": "📊",
+        "title": "Keragaman Pangan Masih Kritis",
+        "content": "Pada usia 18-23 bulan, anak tetap harus mencapai MDD (Minimum Dietary Diversity) 5 dari 8 kelompok pangan setiap hari. Penelitian menunjukkan bahwa hanya 30% anak Indonesia usia ini mencapai MDD — angka yang masih rendah.",
+        "tip": "💡 Gunakan RANNU untuk melacak keragaman harian — satu kelompok pangan yang belum terceklis = target hari ini.",
+        "source": "WHO MDD Indicator, 2010; Riskesdas 2018"
+    },
+    {
+        "id": "d-18-23-04",
+        "day": 4,
+        "age_range": "18-23",
+        "icon": "🚿",
+        "title": "Sanitasi & Status Gizi",
+        "content": "Diare berulang akibat sanitasi buruk menyebabkan Environmental Enteric Dysfunction (EED) — peradangan usus kronis yang menghambat penyerapan nutrisi. EED berkontribusi pada 40% stunting di negara berkembang. Kebersihan adalah fondasi gizi.",
+        "tip": "💡 Cuci tangan pakai sabun 5 waktu kritis: sebelum makan, sebelum menyiapkan makanan, setelah BAB, setelah ganti popok, setelah memegang hewan.",
+        "source": "Humphrey, The Lancet, 2009; Prendergast & Kelly, Immunity, 2012"
+    },
+    {
+        "id": "d-18-23-05",
+        "day": 5,
+        "age_range": "18-23",
+        "icon": "🥜",
+        "title": "Kacang & Tempe: Protein Cerdas",
+        "content": "Kacang-kacangan (kedelai, kacang merah, kacang hijau) dan tempe adalah sumber protein nabati penting. Tempe unik karena proses fermentasi meningkatkan bioavailabilitas mineral dan menghasilkan vitamin B12 — jarang pada sumber nabati lain.",
+        "tip": "💡 Tempe goreng tipis bisa jadi finger food favorit — renyah di luar, lembut di dalam, kaya protein.",
+        "source": "Astawan, Karakteristik Tempe, IPB, 2008; Nout & Kiers, Journal of Applied Microbiology, 2005"
+    },
+    {
+        "id": "d-18-23-06",
+        "day": 6,
+        "age_range": "18-23",
+        "icon": "🍇",
+        "title": "Kurma: Makanan Sunnah Bergizi",
+        "content": "Kurma disebut dalam QS Maryam (19:25) sebagai makanan yang diperintahkan Allah untuk Maryam saat melahirkan. Kurma mengandung energi cepat (glukosa-fruktosa), serat, kalium, magnesium, dan zat besi — camilan ideal untuk anak.",
+        "tip": "💡 Potong kurma kecil-kecil (hindari bulat utuh = risiko tersedak). Campur dengan oat atau yogurt.",
+        "source": "QS Maryam 19:25; Al-Farsi & Lee, Critical Reviews in Food Science & Nutrition, 2008"
+    },
+    {
+        "id": "d-18-23-07",
+        "day": 7,
+        "age_range": "18-23",
+        "icon": "🧬",
+        "title": "Mikrobioma Usus & Imunitas",
+        "content": "70% sistem imun tubuh berada di usus. Mikrobioma usus yang seimbang — dibangun oleh ASI, makanan berserat, dan fermentasi — melindungi anak dari infeksi, alergi, dan bahkan mempengaruhi perkembangan otak (gut-brain axis).",
+        "tip": "💡 Sumber probiotik alami: yogurt, tempe, kimchi. Sumber prebiotik: pisang, bawang, asparagus, oat.",
+        "source": "Cryan & Dinan, Nature Reviews Neuroscience, 2012; Arrieta et al., Frontiers in Immunology, 2014"
+    },
+    {
+        "id": "d-18-23-08",
+        "day": 8,
+        "age_range": "18-23",
+        "icon": "🧃",
+        "title": "Bahaya Minuman Manis",
+        "content": "Minuman manis (jus kemasan, sirup, teh manis, susu rasa) mengandung gula tersembunyi 6-10 sendok teh per sajian. Konsumsi rutin di bawah 2 tahun meningkatkan risiko obesitas 60%, karies gigi, dan preferensi rasa manis berlebihan seumur hidup.",
+        "tip": "💡 Minuman terbaik untuk anak: ASI, air putih, dan susu plain. Jika ingin jus, buat sendiri tanpa gula.",
+        "source": "AAP Policy on Fruit Juice, 2017; Malik et al., Diabetes Care, 2010"
+    },
+    {
+        "id": "d-18-23-09",
+        "day": 9,
+        "age_range": "18-23",
+        "icon": "🫀",
+        "title": "Zat Besi: Masih Prioritas",
+        "content": "6 dari 10 balita Indonesia mengalami anemia defisiensi besi (Riskesdas 2018). Di usia 18-23 bulan kebutuhan zat besi tetap tinggi (7mg/hari). Hati, daging merah, telur, dan ikan harus ada di menu harian.",
+        "tip": "💡 Hindari minum teh/kopi berdekatan dengan waktu makan anak — tanin menghambat penyerapan zat besi 60%.",
+        "source": "Riskesdas 2018; WHO Iron Deficiency Anaemia, 2001; Hurrell et al., AJCN, 1999"
+    },
+    {
+        "id": "d-18-23-10",
+        "day": 10,
+        "age_range": "18-23",
+        "icon": "🧒",
+        "title": "Anak adalah Amanah",
+        "content": "Dalam Islam, anak adalah amanah (titipan) Allah yang harus dijaga sebaik-baiknya. Memberikan gizi terbaik sejak kecil adalah bagian dari tanggung jawab orang tua. Rasulullah ﷺ bersabda: 'Setiap kalian adalah pemimpin, dan setiap pemimpin bertanggung jawab atas yang dipimpinnya' (HR Bukhari-Muslim).",
+        "tip": "💡 Niatkan pemberian makan yang baik sebagai ibadah — merawat amanah Allah dengan sepenuh hati.",
+        "source": "HR Bukhari no. 2409, Muslim no. 1829; Al-Ghazali, Ihya Ulumuddin"
+    },
+    {
+        "id": "d-18-23-11",
+        "day": 11,
+        "age_range": "18-23",
+        "icon": "🚫",
+        "title": "Stop Makanan Ultra-Proses",
+        "content": "WHO menyarankan menghindari makanan ultra-proses (mi instan, sosis kemasan, nugget frozen, snack kemasan) untuk anak <2 tahun. Makanan ini tinggi natrium, gula, lemak trans, dan pengawet — namun rendah nutrisi esensial.",
+        "tip": "💡 Buat nugget sendiri: dada ayam giling + wortel parut + telur + tepung roti — lebih sehat dan halal terjamin.",
+        "source": "Monteiro et al., World Nutrition, 2016; WHO CF Guideline, 2023"
+    },
+    {
+        "id": "d-18-23-12",
+        "day": 12,
+        "age_range": "18-23",
+        "icon": "🌙",
+        "title": "Makan Sebelum Tidur",
+        "content": "Makan malam yang cukup membantu anak tidur lebih nyenyak dan mengurangi frekuensi bangun malam. Pilih menu yang mengandung triptofan (susu, pisang, telur) — asam amino yang membantu produksi melatonin (hormon tidur).",
+        "tip": "💡 Makan malam ideal: 1-2 jam sebelum tidur. Menu: susu hangat + pisang atau bubur susu.",
+        "source": "St-Onge et al., American Journal of Clinical Nutrition, 2016; Peuhkuri et al., Nutrition Research, 2012"
+    },
+    {
+        "id": "d-18-23-13",
+        "day": 13,
+        "age_range": "18-23",
+        "icon": "🌍",
+        "title": "Gizi Seimbang = Investasi Bangsa",
+        "content": "Gizi optimal di 1000 Hari Pertama Kehidupan (HPK) meningkatkan IQ, produktivitas, dan pendapatan di masa dewasa. Bank Dunia memperkirakan stunting mengurangi GDP negara 3-11%. Setiap rupiah investasi di gizi mengembalikan 16 rupiah ke ekonomi.",
+        "tip": "💡 Ibu adalah garda terdepan masa depan bangsa — setiap suapan bergizi adalah investasi generasi emas.",
+        "source": "World Bank, Repositioning Nutrition, 2006; Hoddinott et al., The Lancet, 2013"
+    },
+    {
+        "id": "d-18-23-14",
+        "day": 14,
+        "age_range": "18-23",
+        "icon": "🎓",
+        "title": "Ringkasan: Kunci Gizi 0-24 Bulan",
+        "content": "Perjalanan gizi 1000 HPK: ①ASI eksklusif 6 bulan, ②MPASI beragam mulai 6 bulan, ③protein hewani setiap hari, ④minimal 5 kelompok pangan/hari, ⑤ASI lanjut hingga 2 tahun, ⑥kebersihan, ⑦pemantauan pertumbuhan rutin. Semua ini adalah amanah dan ibadah.",
+        "tip": "💡 Anda telah menyelesaikan 14 hari bacaan! Lanjutkan kebiasaan baik ini setiap hari.",
+        "source": "WHO IYCF Guideline, 2023; QS Al-Baqarah 2:233; Kemenkes RI, 2022"
+    }
+]

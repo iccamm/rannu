@@ -1,0 +1,182 @@
+[
+    {
+        "id": "asi-eksklusif",
+        "category": "mitos",
+        "age_range": "0-5",
+        "title": "ASI Eksklusif 6 Bulan",
+        "myth_text": "ASI saja tidak cukup, bayi perlu diberi air putih atau pisang sejak lahir.",
+        "fact_text": "WHO merekomendasikan ASI eksklusif selama 6 bulan pertama. ASI mengandung semua nutrisi yang dibutuhkan dan antibodi untuk melindungi bayi dari infeksi. Pemberian makanan/minuman lain sebelum 6 bulan meningkatkan risiko diare dan infeksi (WHO, 2023).",
+        "source": "WHO Guideline on Complementary Feeding, 2023"
+    },
+    {
+        "id": "asi-cukup-cairan",
+        "category": "mitos",
+        "age_range": "0-5",
+        "title": "ASI & Kebutuhan Cairan",
+        "myth_text": "Bayi ASI perlu tambahan air putih, terutama saat cuaca panas.",
+        "fact_text": "ASI mengandung 87% air, cukup memenuhi kebutuhan cairan bayi meskipun di cuaca panas. Memberi air putih pada bayi <6 bulan justru mengisi perut dan mengurangi asupan ASI. Cukup susui lebih sering saat cuaca panas (WHO/UNICEF, 2023).",
+        "source": "WHO IYCF Guidelines 2023"
+    },
+    {
+        "id": "mitos-ikan",
+        "category": "mitos",
+        "age_range": "6-8",
+        "title": "Ikan & Cacingan",
+        "myth_text": "Anak di bawah 1 tahun tidak boleh makan ikan karena bisa cacingan dan alergi.",
+        "fact_text": "Ikan justru kaya protein dan omega-3 (DHA) yang penting untuk perkembangan otak. WHO 2023 merekomendasikan pemberian ikan sejak awal MPASI (6 bulan). Cacingan disebabkan oleh sanitasi buruk, bukan makanan ikan. Protein ikan juga mendukung pertumbuhan bakteri baik di usus bayi.",
+        "source": "WHO Complementary Feeding Guideline, 2023; Nutrients Journal, 2023"
+    },
+    {
+        "id": "mitos-telur",
+        "category": "mitos",
+        "age_range": "6-8",
+        "title": "Telur & Bisul",
+        "myth_text": "Bayi tidak boleh makan telur karena bisa menyebabkan bisul dan gatal-gatal.",
+        "fact_text": "Telur adalah sumber protein hewani terbaik dan termurah. Satu butir telur mengandung 13 vitamin dan mineral termasuk kolin untuk perkembangan otak. WHO 2023 merekomendasikan telur sebagai salah satu makanan MPASI pertama. Pengenalan telur dini bahkan dapat menurunkan risiko alergi telur.",
+        "source": "WHO 2023; LEAP Study (NEJM, 2015)"
+    },
+    {
+        "id": "mitos-nasi",
+        "category": "mitos",
+        "age_range": "6-8",
+        "title": "Nasi Saja Sudah Cukup",
+        "myth_text": "Bayi cukup diberi nasi lumat dengan kuah sup saja, tidak perlu lauk yang banyak.",
+        "fact_text": "Nasi hanya mengandung karbohidrat dan rendah zat gizi mikro. Bayi membutuhkan minimal 5 dari 8 kelompok pangan setiap hari (MDD/Minimum Dietary Diversity). Meta-analisis di Indonesia (2023) membuktikan kurangnya keberagaman pangan secara signifikan meningkatkan risiko stunting.",
+        "source": "WHO MDD Indicator 2023; Meta-analisis Stunting Indonesia, ICPH 2023"
+    },
+    {
+        "id": "tekstur-6-8",
+        "category": "tekstur",
+        "age_range": "6-8",
+        "title": "Tekstur Usia 6-8 Bulan",
+        "myth_text": "Makanan bayi harus selalu diblender halus sampai usia 1 tahun agar tidak tersedak.",
+        "fact_text": "Usia 6-8 bulan: berikan tekstur lumat (puree). Mulai dari 2-3 sendok makan, tingkatkan menjadi ½ mangkuk (125ml). Frekuensi: 2-3x makan utama + 1-2x selingan + ASI. Terlalu lama memberi tekstur halus justru menghambat kemampuan mengunyah dan meningkatkan risiko gangguan makan di kemudian hari.",
+        "source": "WHO IYCF Guideline 2023; Pediatrics, 2022"
+    },
+    {
+        "id": "mitos-sayur-pahit",
+        "category": "mitos",
+        "age_range": "9-11",
+        "title": "Sayur Hijau Tidak Untuk Bayi",
+        "myth_text": "Sayuran hijau seperti daun kelor dan bayam terlalu 'keras' untuk perut bayi.",
+        "fact_text": "Sayuran hijau gelap kaya zat besi, vitamin A, dan serat prebiotik yang mendukung pertumbuhan bakteri baik (Bifidobacteria & Lactobacillus) di usus bayi. Daun kelor memiliki protein setara daging. Cukup disesuaikan teksturnya: cincang halus untuk 9-11 bulan.",
+        "source": "Journal of Nutrition, 2022; Scoping Review UI, 2023"
+    },
+    {
+        "id": "tekstur-9-11",
+        "category": "tekstur",
+        "age_range": "9-11",
+        "title": "Tekstur Usia 9-11 Bulan",
+        "myth_text": "Bayi 9 bulan masih harus makan makanan yang diblender halus.",
+        "fact_text": "Usia 9-11 bulan: berikan tekstur cincang halus yang bisa dipegang (finger food). Porsi: ½ mangkuk (125ml) per makan. Frekuensi: 3-4x makan utama + 1-2x selingan + ASI. Ini melatih motorik oral, koordinasi tangan-mulut, dan mendorong kemandirian makan.",
+        "source": "WHO IYCF Guideline 2023"
+    },
+    {
+        "id": "mitos-bumbu",
+        "category": "mitos",
+        "age_range": "9-11",
+        "title": "Bumbu Dapur & MPASI",
+        "myth_text": "MPASI tidak boleh diberi bumbu karena perut bayi masih lemah.",
+        "fact_text": "Bumbu alami seperti bawang merah, bawang putih, kunyit, dan daun salam AMAN dan justru menambah cita rasa sehingga bayi lebih tertarik makan. Yang harus dihindari adalah gula tambahan, garam berlebihan, dan MSG. Kunyit bahkan memiliki sifat antiinflamasi yang melindungi usus.",
+        "source": "Kemenkes RI Pedoman MPASI 2023"
+    },
+    {
+        "id": "mitos-madu",
+        "category": "mitos",
+        "age_range": "6-8",
+        "title": "Madu untuk Bayi",
+        "myth_text": "Madu baik diberikan pada bayi karena alami dan sehat.",
+        "fact_text": "JANGAN berikan madu pada bayi di bawah 12 bulan! Madu dapat mengandung spora bakteri Clostridium botulinum yang menyebabkan botulisme infantil — kondisi serius yang bisa mengancam jiwa. Sistem pencernaan bayi belum mampu melawan spora ini. Tunggu sampai usia >12 bulan.",
+        "source": "AAP (American Academy of Pediatrics); WHO 2023"
+    },
+    {
+        "id": "tekstur-12-23",
+        "category": "tekstur",
+        "age_range": "12-23",
+        "title": "Tekstur Usia 12-23 Bulan",
+        "myth_text": "Anak 1-2 tahun masih harus makan makanan yang khusus dihaluskan.",
+        "fact_text": "Usia 12-23 bulan: anak sudah bisa makan makanan keluarga yang dipotong kecil. Porsi: ¾ hingga 1 mangkuk penuh (175-250ml) per makan. Frekuensi: 3-4x makan utama + 1-2x selingan bergizi + ASI sampai usia 2 tahun. Variasikan dengan minimal 5 kelompok pangan per hari.",
+        "source": "WHO IYCF Guideline 2023"
+    },
+    {
+        "id": "mitos-susu-formula",
+        "category": "mitos",
+        "age_range": "12-23",
+        "title": "Susu Formula Lebih Baik dari ASI",
+        "myth_text": "Setelah 1 tahun, susu formula lebih lengkap nutrisinya dibanding ASI.",
+        "fact_text": "ASI tetap menjadi sumber nutrisi dan antibodi penting sampai usia 2 tahun. WHO merekomendasikan ASI dilanjutkan hingga 24 bulan bersamaan dengan makanan keluarga. ASI mengandung HMO (Human Milk Oligosaccharides) yang tidak ada di susu formula dan berfungsi sebagai prebiotik untuk bakteri baik usus.",
+        "source": "WHO 2023; Lancet Breastfeeding Series, 2023"
+    },
+    {
+        "id": "mitos-jajan",
+        "category": "mitos",
+        "age_range": "12-23",
+        "title": "Makanan Ringan Kemasan",
+        "myth_text": "Snack kemasan khusus bayi pasti aman dan sehat untuk selingan.",
+        "fact_text": "WHO 2023 secara tegas merekomendasikan untuk MENGHINDARI makanan tinggi gula, garam, dan lemak trans — termasuk banyak snack kemasan. Selingan sehat: potongan buah, telur rebus, ubi kukus, atau pisang. Baca label nutrisi: hindari produk dengan gula sebagai 3 bahan teratas.",
+        "source": "WHO Guideline on Complementary Feeding, 2023"
+    },
+    {
+        "id": "porsi-6-8",
+        "category": "porsi",
+        "age_range": "6-8",
+        "title": "Panduan Porsi 6-8 Bulan",
+        "myth_text": "Bayi baru mulai makan cukup diberi sedikit saja, yang penting sudah belajar makan.",
+        "fact_text": "Mulai MPASI dari 2-3 sendok, tingkatkan bertahap ke ½ mangkuk (125ml) per makan. Beri 2-3x makan utama + 1-2x selingan + ASI. Setiap makan WAJIB mengandung sumber protein hewani (telur/ikan/daging/hati ayam). Tambahkan minyak/santan sebagai sumber lemak sehat.",
+        "source": "WHO IYCF Guideline 2023; Kemenkes RI"
+    },
+    {
+        "id": "porsi-9-11",
+        "category": "porsi",
+        "age_range": "9-11",
+        "title": "Panduan Porsi 9-11 Bulan",
+        "myth_text": "Porsi makan bayi 9 bulan sama saja dengan bayi 6 bulan.",
+        "fact_text": "Bayi 9-11 bulan membutuhkan porsi lebih besar: ½ mangkuk (125ml) per makan, 3-4x makan utama + 1-2x selingan + ASI. Variasikan minimal 5 dari 8 kelompok pangan. Tambahkan sumber lemak sehat (minyak kelapa/santan) dan protein hewani di SETIAP makan utama.",
+        "source": "WHO IYCF Guideline 2023"
+    },
+    {
+        "id": "porsi-12-23",
+        "category": "porsi",
+        "age_range": "12-23",
+        "title": "Panduan Porsi 12-23 Bulan",
+        "myth_text": "Anak 1 tahun sudah bisa makan sendiri, tidak perlu diatur porsi dan frekuensinya.",
+        "fact_text": "Anak 12-23 bulan: ¾ sampai 1 mangkuk penuh (175-250ml) per makan, 3-4x makan utama + 1-2x selingan + ASI hingga 2 tahun. Pastikan setiap hari mendapat: protein hewani (telur/ikan/daging), sayur & buah, dan sumber karbohidrat. Target: minimal 5 dari 8 kelompok pangan.",
+        "source": "WHO IYCF Guideline 2023"
+    },
+    {
+        "id": "mikrobioma-intro",
+        "category": "mikrobioma",
+        "age_range": "6-8",
+        "title": "Apa Itu Mikrobioma Usus?",
+        "myth_text": "Semua kuman di perut bayi itu berbahaya dan harus dihilangkan.",
+        "fact_text": "Di dalam usus bayi terdapat triliunan bakteri baik yang disebut mikrobioma. Bakteri ini membantu mencerna makanan, melawan infeksi, memproduksi vitamin, dan bahkan mempengaruhi perkembangan otak. Penelitian menunjukkan anak stunting memiliki mikrobioma yang kurang beragam dibanding anak sehat.",
+        "source": "Scoping Review Universitas Indonesia, 2023; MDPI Nutrients, 2024"
+    },
+    {
+        "id": "mikrobioma-asi",
+        "category": "mikrobioma",
+        "age_range": "0-5",
+        "title": "ASI & Mikrobioma Usus",
+        "myth_text": "ASI setelah beberapa bulan sudah tidak bermanfaat untuk kesehatan pencernaan bayi.",
+        "fact_text": "ASI mengandung HMO (Human Milk Oligosaccharides) — prebiotik alami yang menjadi makanan bagi bakteri baik (terutama Bifidobacteria) di usus bayi. WHO merekomendasikan ASI dilanjutkan hingga 2 tahun. Kombinasi ASI + MPASI beragam = kunci mikrobioma sehat dan daya tahan tubuh optimal.",
+        "source": "WHO 2023; Lancet 2023; Journal of Nutrition 2022"
+    },
+    {
+        "id": "mikrobioma-mpasi",
+        "category": "mikrobioma",
+        "age_range": "9-11",
+        "title": "MPASI Beragam & Bakteri Baik",
+        "myth_text": "Cukup beri satu jenis makanan saja agar perut bayi tidak kaget.",
+        "fact_text": "Semakin beragam jenis makanan MPASI, semakin beragam pula ekosistem bakteri baik di usus bayi. Penelitian di Indonesia (2023) membuktikan anak dengan keberagaman pangan rendah memiliki risiko stunting lebih tinggi. Variasikan: serealia, kacang-kacangan, protein hewani, telur, susu, sayur & buah setiap hari.",
+        "source": "Meta-analisis ICPH 2023; PLOS ONE Indonesia Study, 2023"
+    },
+    {
+        "id": "mikrobioma-stunting",
+        "category": "mikrobioma",
+        "age_range": "12-23",
+        "title": "Mikrobioma & Pencegahan Stunting",
+        "myth_text": "Stunting hanya disebabkan kurang makan, tidak ada hubungannya dengan bakteri usus.",
+        "fact_text": "Penelitian terbaru menunjukkan anak stunting memiliki jumlah bakteri patogen lebih tinggi dan bakteri baik lebih rendah dibanding anak sehat. Mikrobioma usus yang tidak sehat mengganggu penyerapan nutrisi. Kunci pencegahan: ASI hingga 2 tahun + MPASI beragam (≥5 kelompok pangan/hari) + sanitasi baik.",
+        "source": "Nutrients MDPI Jakarta Slums Study, 2024; UI Scoping Review, 2023"
+    }
+]

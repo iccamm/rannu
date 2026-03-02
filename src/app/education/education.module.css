@@ -1,0 +1,451 @@
+/* ===== Education Page — Premium Visual System ===== */
+
+/* Header decoration */
+.headerWrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.headerEmoji {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    font-size: 2.5rem;
+    animation: float 3s ease-in-out infinite;
+    filter: drop-shadow(0 4px 8px rgba(47, 128, 237, 0.15));
+    pointer-events: none;
+}
+
+/* Tab bar container with glassmorphism */
+.tabBar {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 12px 4px;
+    margin-bottom: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    position: relative;
+}
+
+.tabBar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Individual tab pill */
+.tabPill {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    /* Reduced from 6px */
+    padding: 8px 14px;
+    /* Reduced from 10px 18px */
+    border: none;
+    border-radius: var(--radius-full);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--bg-card);
+    color: var(--text-muted);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-light);
+    overflow: hidden;
+}
+
+.tabPill::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tabPill:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    color: var(--primary);
+    border-color: rgba(47, 128, 237, 0.2);
+}
+
+.tabPill:hover::before {
+    opacity: 1;
+}
+
+.tabPill:active {
+    transform: scale(0.96);
+}
+
+/* Active tab — gradient glow */
+.tabPillActive {
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 4px 16px rgba(47, 128, 237, 0.35);
+    transform: translateY(-1px);
+}
+
+.tabPillActive:hover {
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(47, 128, 237, 0.4);
+    border-color: transparent;
+}
+
+.tabPillActive::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), transparent);
+    pointer-events: none;
+}
+
+.tabIcon {
+    font-size: 1.125rem;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tabPillActive .tabIcon {
+    animation: bounceIcon 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tabCount {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    border-radius: var(--radius-full);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    background: rgba(47, 128, 237, 0.1);
+    color: var(--primary);
+    transition: all 0.3s ease;
+}
+
+.tabPillActive .tabCount {
+    background: rgba(255, 255, 255, 0.25);
+    color: #fff;
+}
+
+/* Content container with animated key */
+.cardList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* Reduced from 16px */
+    margin-bottom: 24px;
+}
+
+/* Staggered card animation */
+.cardItem {
+    opacity: 0;
+    animation: cardSlideUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Empty state */
+.emptyState {
+    text-align: center;
+    padding: 56px 24px;
+    color: var(--text-muted);
+}
+
+.emptyIcon {
+    font-size: 3rem;
+    display: inline-block;
+    animation: bounceGentle 2s ease-in-out infinite;
+    margin-bottom: 16px;
+}
+
+.emptyTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+
+.emptyText {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+/* Info banner at bottom */
+.infoBanner {
+    background: linear-gradient(135deg, var(--secondary-lighter), var(--bg-warm));
+    border: 1px solid rgba(14, 165, 233, 0.12);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 24px;
+    text-align: center;
+    padding: 16px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.infoBanner::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(14, 165, 233, 0.04) 0%, transparent 60%);
+    animation: float 6s ease-in-out infinite reverse;
+    pointer-events: none;
+}
+
+.infoBannerText {
+    position: relative;
+    font-size: 0.8125rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+/* ===== Keyframes ===== */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes cardSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(24px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes bounceGentle {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes bounceIcon {
+    0% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1.3);
+    }
+
+    70% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ===== Daily Reading Task Card ===== */
+.dailyCard {
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    border: 2px solid var(--secondary-light);
+    box-shadow: 0 4px 20px rgba(14, 165, 233, 0.12);
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    animation: cardSlideUp 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dailyCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--secondary), var(--primary));
+}
+
+.dailyCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(14, 165, 233, 0.18);
+}
+
+.dailyCard:active {
+    transform: scale(0.99);
+}
+
+.dailyCardRead {
+    border-color: var(--success);
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.12);
+}
+
+.dailyCardRead::before {
+    background: linear-gradient(90deg, var(--success), #34d399);
+}
+
+.dailyHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.dailyBadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--secondary-dark);
+    background: var(--secondary-lighter);
+    padding: 4px 12px;
+    border-radius: var(--radius-full);
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.dailyCardRead .dailyBadge {
+    color: #059669;
+    background: rgba(16, 185, 129, 0.1);
+}
+
+.dailyAge {
+    font-size: 0.6875rem;
+    color: var(--text-muted);
+    background: var(--border-light);
+    padding: 3px 8px;
+    border-radius: var(--radius-sm);
+}
+
+.dailyTitleRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.dailyIcon {
+    font-size: 1.75rem;
+    flex-shrink: 0;
+    animation: pulseIcon 2s ease-in-out infinite;
+}
+
+.dailyCardRead .dailyIcon {
+    animation: none;
+}
+
+.dailyTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.4;
+    margin: 0;
+}
+
+.dailyPreview {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Expanded content */
+.dailyContent {
+    animation: expandIn 0.3s ease-out;
+}
+
+.dailyText {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.dailyTip {
+    background: linear-gradient(135deg, #fffbeb, #fef3c7);
+    border: 1px solid rgba(245, 158, 11, 0.15);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+}
+
+.dailySource {
+    font-size: 0.6875rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.dailyReadBadge {
+    text-align: center;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #059669;
+    background: rgba(16, 185, 129, 0.08);
+    border: 1px solid rgba(16, 185, 129, 0.15);
+    border-radius: var(--radius-md);
+    padding: 10px 16px;
+    margin-top: 8px;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes pulseIcon {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes expandIn {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+
+    to {
+        opacity: 1;
+        max-height: 500px;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

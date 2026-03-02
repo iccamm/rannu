@@ -1,0 +1,11 @@
+.text {
+    border-radius: 4px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.card {
+    border-radius: var(--radius-md);
+}

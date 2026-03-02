@@ -1,0 +1,191 @@
+.flipContainer {
+    perspective: 1000px;
+    cursor: pointer;
+    min-height: 200px;
+}
+
+.flipInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+    display: grid;
+}
+
+.flipped .flipInner {
+    transform: rotateY(180deg);
+}
+
+.flipFace {
+    grid-area: 1 / 1;
+    width: 100%;
+    min-height: 200px;
+    border-radius: var(--radius-md);
+    /* Reduced from lg */
+    padding: 16px;
+    /* Reduced from 24px 20px */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Reduced from 12px */
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.35s ease;
+}
+
+/* Shine sweep animation overlay */
+.flipFace::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 40%;
+    height: 200%;
+    background: linear-gradient(105deg,
+            transparent 40%,
+            rgba(255, 255, 255, 0.5) 45%,
+            rgba(255, 255, 255, 0.7) 50%,
+            rgba(255, 255, 255, 0.5) 55%,
+            transparent 60%);
+    transform: rotate(25deg);
+    animation: shineSweep 4s ease-in-out infinite;
+    pointer-events: none;
+}
+
+/* Front: Myth — gradient background */
+.front {
+    background: linear-gradient(135deg, #fff0f0 0%, #fff8f8 50%, #ffffff 100%);
+    border: 1px solid #fecaca;
+}
+
+.front:hover,
+.flipContainer:active .front {
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.12), 0 8px 24px rgba(0, 0, 0, 0.04);
+    border-color: #fca5a5;
+}
+
+/* Back: Fact — gradient background */
+.back {
+    background: linear-gradient(135deg, #f0fdf4 0%, #f8fff8 50%, #ffffff 100%);
+    border: 1px solid #bbf7d0;
+    transform: rotateY(180deg);
+}
+
+.back:hover,
+.flipContainer:active .back {
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.12), 0 8px 24px rgba(0, 0, 0, 0.04);
+    border-color: #86efac;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+    width: fit-content;
+}
+
+.front .tag {
+    color: #dc2626;
+    background: rgba(220, 38, 38, 0.08);
+}
+
+.back .tag {
+    color: #16a34a;
+    background: rgba(22, 163, 74, 0.08);
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9375rem;
+    /* Reduced from 1rem */
+    color: var(--primary);
+    line-height: 1.4;
+}
+
+.text {
+    font-size: 0.875rem;
+    /* Reduced from 0.9375rem */
+    line-height: 1.6;
+    color: var(--text-secondary);
+    flex: 1;
+}
+
+/* Pulsing hint with animated arrow */
+.hint {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    animation: pulseHint 2s ease-in-out infinite;
+}
+
+.hintArrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.flipContainer:hover .hintArrow {
+    animation: bounceArrow 0.8s ease-in-out infinite;
+}
+
+/* ===== Keyframes ===== */
+@keyframes shineSweep {
+
+    0%,
+    100% {
+        left: -60%;
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    30% {
+        left: 110%;
+        opacity: 0;
+    }
+
+    31%,
+    99% {
+        opacity: 0;
+        left: -60%;
+    }
+}
+
+@keyframes pulseHint {
+
+    0%,
+    100% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes bounceArrow {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(4px);
+    }
+}
